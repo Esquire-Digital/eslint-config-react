@@ -1,0 +1,46 @@
+{
+  "name": "@esquiredigital/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier config for Esquire React projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esquire-Digital/eslint-config-react.git"
+  },
+  "author": "Ryan Hartman <rjhartman99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Esquire-Digital/eslint-config-react/issues"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier",
+    "react",
+    "jsx"
+  ],
+  "homepage": "https://github.com/Esquire-Digital/eslint-config-react#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.0",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3"
+  },
+  "dependencies": {
+    "@esquiredigital/eslint-config-react": "^1.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
